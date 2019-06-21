@@ -52,7 +52,7 @@
                                <li><router-link to="/CartView">购物车</router-link></li>
 
 
-                               <li v-if="username === null"><a href="#">登陆</a></li>
+                               <li v-if="username === null"><router-link to="/login">登陆</router-link></li>
 
 
                                <li v-else-if="username !== null" class="dropdown">
@@ -83,7 +83,7 @@
         name: 'navView',
         data(){
             return{
-                username:"dan"
+                username:null
         }
 
         }
