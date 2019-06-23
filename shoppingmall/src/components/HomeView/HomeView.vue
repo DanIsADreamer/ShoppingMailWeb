@@ -1,6 +1,11 @@
 <template>
   <div class="home-view">
     <CarouselView/>
+    <div class="container">
+      <div class="page-header">
+        <h1>热门商品</h1>
+      </div>
+    </div>
     <HotProductView/>
   </div>
 </template>
